@@ -6,24 +6,24 @@ public class MyСalculatorTest {
 
     @Test
     public void countSum() {
-        MyСalculator myСalculator= new MyСalculator();
-        int actual=myСalculator.countSum(7,5);
+        ArithmeticCalculator arithmeticCalculator = new ArithmeticCalculator();
+        int actual= arithmeticCalculator.countSum(7,5);
         int expected =12;
         assertEquals(expected,actual);
     }
 
     @Test
     public void countMultiplication() {
-        MyСalculator myСalculator= new MyСalculator();
-        int actual=myСalculator.countMultiplication(7,5);
+        ArithmeticCalculator arithmeticCalculator = new ArithmeticCalculator();
+        int actual= arithmeticCalculator.countMultiplication(7,5);
         int expected =35;
         assertEquals(expected,actual);
     }
 
     @Test
     public void countSubtraction() {
-        MyСalculator myСalculator= new MyСalculator();
-        int actual=myСalculator.countSubtraction(7,5);
+        ArithmeticCalculator arithmeticCalculator = new ArithmeticCalculator();
+        int actual= arithmeticCalculator.countSubtraction(7,5);
         int expected =2;
         assertEquals(expected,actual);
     }
